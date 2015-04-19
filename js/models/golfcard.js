@@ -1,6 +1,15 @@
 var app = app || {};
 
 
-app.golfcard = Backbone.Model.extend({
+app.golfcardModel = Backbone.Model.extend({
+
+    defaults: {
+        name: "Player"
+
+    },
+
+    initialize: function(){
+        console.log("New golfcardModel created");
+    }
 
 });
