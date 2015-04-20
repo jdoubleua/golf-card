@@ -9,7 +9,7 @@ app.golfcardModel = Backbone.Model.extend({
     },
 
     initialize: function(){
-        console.log("New golfcardModel created");
+        console.log("New golfcardModel created" + " " + this.get('name'));
     }
 
 });
