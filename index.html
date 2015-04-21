@@ -32,20 +32,30 @@
                 </tr>
                 <tr>
                     <td><input class = "form-control" type = "text" id = "userName" /></td>
-                    <td><input class = "form-control hole-1" type = "number"></td>
-                    <td><input class = "form-control hole-2" type = "number"></td>
-                    <td><input class = "form-control hole-3" type = "number"></td>
-                    <td><input class = "form-control hole-4" type = "number"></td>
-                    <td><input class = "form-control hole-5" type = "number"></td>
-                    <td><input class = "form-control hole-6" type = "number"></td>
-                    <td><input class = "form-control hole-7" type = "number"></td>
-                    <td><input class = "form-control hole-8" type = "number"></td>
-                    <td><input class = "form-control hole-9" type = "number"></td>
+                    <td><input class = "form-control hole-1" type = "number" min="1" ></td>
+                    <td><input class = "form-control hole-2" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-3" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-4" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-5" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-6" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-7" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-8" type = "number" min="1"></td>
+                    <td><input class = "form-control hole-9" type = "number" min="1"></td>
                     <td><span class = "totalNumber"></span></td>
                 </tr>
                </thead>
                 <tbody class = "frontNine">
-
+                    <td><span class = "name"></span></td>
+                    <td><span class = "thole-1"></span></td>
+                    <td><span class = "thole-2"></span></td>
+                    <td><span class = "thole-3"></span></td>
+                    <td><span class = "thole-4"></span></td>
+                    <td><span class = "thole-5"></span></td>
+                    <td><span class = "thole-6"></span></td>
+                    <td><span class = "thole-7"></span></td>
+                    <td><span class = "thole-8"></span></td>
+                    <td><span class = "thole-9"></span></td>
+                    <td><span class = "total"></span></td>
                 </tbody>
             </table>
 
@@ -55,7 +65,7 @@
 
 <!--Templates-->
 <script type = "text/template" class = "frontNine-template">
-    <td><span class = "name"><%= name %></span></td>
+
 </script>
 
 
@@ -75,5 +85,6 @@
 
 <!--Custom Logic-->
 <script src = "js/app.js"></script>
+<script src = "js/proofofconcept.js"></script>
 </body>
 </html>

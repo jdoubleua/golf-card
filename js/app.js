@@ -19,7 +19,11 @@ $(document).ready(function () {
         Recognize change to golfcardModel
      */
     app.golfer.on("change:name", function(model, name){
+
+        $('.name').text(name).val();
+
         console.log("Changed model name from " + app.golfer.previous("name") + " to " + name);
+
     });
     /*
         Submit username

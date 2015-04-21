@@ -2,7 +2,7 @@ var app = app || {};
 
 app.golfCardView = Backbone.View.extend({
 
-    model: new app.golfcardModel(),
+    model: new app.golfcardModel,
     tagname: "tr",
 
     initialize: function(){
